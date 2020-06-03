@@ -9,4 +9,8 @@ public class UerinfoContoller {
     public String say(){
         return "hello";
     }
+
+    public void drink(){
+        System.out.println("drink beer");
+    }
 }
