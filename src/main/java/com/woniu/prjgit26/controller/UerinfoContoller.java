@@ -9,4 +9,9 @@ public class UerinfoContoller {
     public String say(){
         return "hello";
     }
+
+    @GetMapping("/say1")
+    public String say1(){
+        return "hello";
+    }
 }
