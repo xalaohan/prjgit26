@@ -13,4 +13,9 @@ public class UerinfoContoller {
     public void drink(){
         System.out.println("drink beer");
     }
+
+    @GetMapping("/say1")
+    public String say1(){
+        return "hello";
+    }
 }
