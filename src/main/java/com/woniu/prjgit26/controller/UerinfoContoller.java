@@ -11,6 +11,10 @@ public class UerinfoContoller {
         return "hello";
     }
 
+    public void dev1(){
+
+    }
+
     public void drink(){
         System.out.println("drink beer");
     }
